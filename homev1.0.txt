@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>USL Ltd – Universal Services London Limited</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">
+<a href="#" class="flex items-center">
+  <img src="logo2.svg" alt="USL Ltd Logo" class="h-16 lg:h-32 w-auto object-contain">
+  <span class="md:hidden text-2xl font-bold text-blue-600">USL Ltd</span>
+</a>
+</h1>
+      <nav class="space-x-6">
+        <a href="#services" class="hover:text-blue-600">Services</a>
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-20">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <h2 class="text-4xl font-bold mb-4">Universal Services London Limited</h2>
+      <p class="text-lg mb-6">Professional, reliable, and flexible service provider for removals, deliveries, wholesale trading, and logistics across London.</p>
+      <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold shadow hover:bg-gray-100">Get a Quote</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-10">Our Core Services</h3>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-2">Man & Van / Removals</h4>
+          <p class="text-gray-600">Fast and reliable local removals, furniture delivery, room moves, and small flat relocations.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-2">House Clearance</h4>
+          <p class="text-gray-600">Affordable and efficient clearance services for homes, offices, and rented properties.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-2">Wholesale & Trading</h4>
+          <p class="text-gray-600">Authorised UK supplier and agent for furniture, household goods, carpets, lighting, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-gray-100">
+    <div class="max-w-5xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-8">About USL Ltd</h3>
+      <p class="text-gray-700 text-lg text-center leading-relaxed">
+        Universal Services London Limited (USL Ltd) is a London-based multi‑service company offering removals, delivery services, trading, and logistics solutions. 
+        We focus on simplicity, reliability, and customer satisfaction, ensuring every job is handled professionally through our trusted network of subcontractors and partners.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-8">Get in Touch</h3>
+
+      <div class="bg-white p-8 rounded-2xl shadow">
+        <p class="text-gray-700 mb-4">For bookings, quotes, or partnerships, contact us:</p>
+        <p class="text-gray-800 text-lg"><strong>Email:</strong> info@uslltd.co.uk</p>
+        <p class="text-gray-800 text-lg"><strong>Phone:</strong> 07XXX XXX XXX</p>
+        <p class="text-gray-800 text-lg"><strong>Registered Address:</strong> 221 Longley Road, London, SW17 9LG</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>© 2025 Universal Services London Limited (USL Ltd). All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
